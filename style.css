@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:lightslategray;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:#aaa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  button {
+    display: flex;
+    padding: 10px;
+    background-color:skyblue;
+    color:grey;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  li span {
+    cursor: pointer;
+  }
+  
+  li.done {
+    text-decoration: line-through;
+    color: #aaa;
+  }
+  
